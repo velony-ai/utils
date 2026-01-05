@@ -1,6 +1,6 @@
 {
   "name": "@velony/utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "TypeScript utility library providing common helper functions for time conversion and formatting",
   "keywords": [
     "utils",
