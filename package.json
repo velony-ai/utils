@@ -1,0 +1,53 @@
+{
+  "name": "@velony/utils",
+  "version": "1.0.1",
+  "description": "TypeScript utility library providing common helper functions for time conversion and formatting",
+  "keywords": [
+    "utils",
+    "utilities",
+    "typescript",
+    "helper-functions"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velony-ai/utils.git"
+  },
+  "author": "velony-ai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/velony-ai/utils/issues"
+  },
+  "homepage": "https://github.com/velony-ai/utils#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-security": "^3.0.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.51.0"
+  }
+}
