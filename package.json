@@ -1,6 +1,6 @@
 {
   "name": "@velony/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TypeScript utility library providing common helper functions for time conversion and formatting",
   "keywords": [
     "utils",
@@ -13,7 +13,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
     }
   },
   "files": [
